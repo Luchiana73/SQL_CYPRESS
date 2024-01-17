@@ -1,0 +1,19 @@
+{
+  "name": "sql_cypress",
+  "version": "1.0.0",
+  "description": "sql data cypress project",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Svetlana Gorodetskaya",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "mysql": "^2.18.1"
+  }
+}
